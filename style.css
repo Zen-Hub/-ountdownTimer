@@ -1,0 +1,129 @@
+
+
+body {
+    font-family: "Patrick Hand","Roboto";
+}
+
+.wrapper {
+    display: grid;
+    justify-content: start;
+    align-content: center;
+    background-image: url(images/NewYear.jpg) ;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.timer {
+    display: grid;
+    justify-content: center;
+    align-content: start;
+    width: 900px;
+    height: 700px;
+    margin: 0px 0px 95px 55px;
+   
+
+}
+
+.timer-header {
+   
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+
+}
+
+.timer-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.timer-day {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    color: rgb(255, 255, 255);
+    
+    
+}
+
+.timer-day__count {
+    margin: 0 auto;
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+   
+}
+
+
+.timer-day__text {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    
+}
+
+.timer-hours {
+    display: grid;
+    justify-content: center;
+    align-content: start;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    
+}
+
+.timer-hours__text {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+   
+}
+
+.timer-hours__count {
+    margin: 0 auto;
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    
+}
+
+.timer-minutes {
+    display: grid;
+    justify-content: center;
+    align-content: start;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    
+}
+
+.timer-minutes__text {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    
+}
+
+.timer-minutes__count {
+    margin: 0 auto;
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    
+}
+
+.timer-seconds {
+    display: grid;
+    justify-content: center;
+    align-content: start;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    
+}
+
+.timer-seconds__text {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    
+}
+
+.timer-seconds__count {
+    margin: 0 auto;
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    
+}
