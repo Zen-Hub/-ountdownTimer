@@ -1,3 +1,5 @@
+
+
 html {
   
     background-image: url(images/NewYear.jpg);
@@ -14,17 +16,18 @@ body {
 
 
 .wrapper {
+    min-height: 300px;
     margin: 0 auto;
     display: grid;
-    justify-content: start;
+    justify-content: center;
     align-content: center;
 }
 
 .timer {
     display: grid;
     justify-content: end;
-    align-content: start;
-    margin: 50px 0px 0px 190px;
+    align-content: end;
+   
     padding: 10px;
 }
 
@@ -62,7 +65,7 @@ body {
 @media (max-width: 1199.98px) { 
     .timer {
         justify-content: center;
-        margin: 40px 0px 70px 60px;
+        
     }
     
    
@@ -83,7 +86,7 @@ body {
 
     .timer {
         justify-content: center;
-        margin: 40px 0px 70px 50px;
+       
     }
     
     .timer-header {
@@ -107,7 +110,7 @@ body {
 
     .timer {
         justify-content: center;
-        margin: 40px 0px 70px 50px;
+       
     }
     
     .timer-header {
@@ -125,14 +128,12 @@ body {
     
 }    
 
-   
-
-@media (max-width: 375.98px) {
+@media (max-width: 390.98px) {
    
 
     .timer {
         justify-content: center;
-        margin: 40px 0px 0px 30px;
+        
     }
     
     .timer-header {
@@ -150,4 +151,5 @@ body {
     }
     
 }
+    
     
