@@ -1,5 +1,5 @@
 html {
-    display: grid;
+  
     background-image: url(images/NewYear.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -132,7 +132,7 @@ body {
 
     .timer {
         justify-content: center;
-        margin: 40px 0px 0px 40px;
+        margin: 40px 0px 0px 30px;
     }
     
     .timer-header {
