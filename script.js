@@ -1,4 +1,4 @@
-const futureDate = '1 Jan 2023'
+const futureDate = '1 Jan 2024'
 let days = document.querySelector('.timer-day__count')
 let hours = document.querySelector('.timer-hours__count')
 let minutes = document.querySelector('.timer-minutes__count')
