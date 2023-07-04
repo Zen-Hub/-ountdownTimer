@@ -5,7 +5,7 @@ let minutes = document.querySelector('.timer-minutes__count')
 let seconds = document.querySelector('.timer-seconds__count')
 
 const countDown = () => {
-    const now = new Date()
+    const now = new Date() //текущая дата
     const futureYear = now.getFullYear() + 1 // Год следующего года
     const futureDate = `1 Jan ${futureYear}` // Обновленная дата с будущим годом
 
@@ -23,7 +23,7 @@ function timeCorrection(time) {
 }
 
 countDown()
-setInterval(countDown, 1000))
+setInterval(countDown, 1000)
 
 
 
